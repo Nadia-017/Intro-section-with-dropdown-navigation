@@ -25,7 +25,7 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1500px;
     padding: 3rem;
 }
 
@@ -36,12 +36,12 @@ nav {
 
 .logo {
     height: 1rem;
-    margin-left: -1rem;
+    margin-left: 1rem;
 }
 
 .link {
     display: flex;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     list-style: none;
 }
 
@@ -52,9 +52,10 @@ nav {
     gap: .4rem;
     position: relative;
     user-select: none;
-    margin: 15px;
+    margin: 20px;
     color: hsl(0, 0%, 41%);
     transition: color 0.3s ease;
+    font-size: 1.3rem;
 } 
 
 .link li:hover {
@@ -81,7 +82,7 @@ nav {
     box-shadow: 0 0 15px 0 rgba(66, 65, 65, 0.628);
     padding: 1rem;
     border-radius: 10px;
-    bottom: -153px;
+    bottom: -158px;
     right: 2px;
 }
 
@@ -92,15 +93,15 @@ nav {
     box-shadow: 0 0 15px 0 rgba(66, 65, 65, 0.628);
     padding: 1rem ;
     border-radius: 10px;
-    bottom: -127px;
+    bottom: -130px;
     left: -5px;
 }
 
 .sub-link {
     display: flex;
     align-items: center;
-    width: 80px;
-    font-size: 13px;
+    width: 90px;
+    font-size: 15px;
     margin: 5px;
     color: hsl(0, 0%, 41%);
 }
@@ -117,8 +118,8 @@ nav {
 .sub-links {
     display: flex;
     align-items: center;
-    width: 65px;
-    font-size: 13px;
+    width: 75px;
+    font-size: 15px;
     margin: 5px;
     color: hsl(0, 0%, 41%);
 }
@@ -129,20 +130,22 @@ nav {
 }
 
 .login-btn {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 15px;
     font-weight: 700;
     cursor: pointer;
     background-color: white;
     border: none;
+    font-size: 1rem;
 }
 
 .register-btn {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 15px;
     font-weight: 700;
     cursor: pointer;
     background-color: white;
+    font-size: 1rem;
 }
 
 
@@ -151,7 +154,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 7rem;
-    margin-left: 9rem;
+    margin-left: 11rem;
 }
 
 .main-container {
@@ -160,19 +163,20 @@ main {
 }
 
 .main-heading {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .main-content {
     margin-top: 2rem;
     color: hsl(0, 0%, 41%);
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .learn-more-btn {
-    padding: 1rem 2rem;
+    padding: 1rem 2.3rem;
     border-radius: 15px;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1rem;
     cursor: pointer;
     background-color: black;
     color: white;
@@ -187,15 +191,15 @@ main {
 }
 
 .client-logo {
-    margin-top: 7rem;
+    margin-top: 5rem;
     letter-spacing: 1rem;
 }
 
 .main-right {
-    width: 75%;
-    height: auto;
-    margin-top: -5rem;
+    width: 65%;
+    height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5rem;
 }
