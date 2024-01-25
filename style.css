@@ -1,0 +1,201 @@
+* {
+    font-family: "Epilogue", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 3rem;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 1rem;
+    margin-left: -1rem;
+}
+
+.link {
+    display: flex;
+    margin-left: 1.5rem;
+    list-style: none;
+}
+
+.link li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: .4rem;
+    position: relative;
+    user-select: none;
+    margin: 15px;
+    color: hsl(0, 0%, 41%);
+    transition: color 0.3s ease;
+} 
+
+.link li:hover {
+    color: black;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.rotate-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.features {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0 0 15px 0 rgba(66, 65, 65, 0.628);
+    padding: 1rem;
+    border-radius: 10px;
+    bottom: -153px;
+    right: 2px;
+}
+
+.company {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0 0 15px 0 rgba(66, 65, 65, 0.628);
+    padding: 1rem ;
+    border-radius: 10px;
+    bottom: -127px;
+    left: -5px;
+}
+
+.sub-link {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    font-size: 13px;
+    margin: 5px;
+    color: hsl(0, 0%, 41%);
+}
+
+.sub-link img {
+    margin-right: 6px; 
+}
+
+.sub-link:hover {
+    color: #000000;
+    font-weight: 550;
+}
+
+.sub-links {
+    display: flex;
+    align-items: center;
+    width: 65px;
+    font-size: 13px;
+    margin: 5px;
+    color: hsl(0, 0%, 41%);
+}
+
+.sub-links:hover {
+    color: #000000;
+    font-weight: 550;
+}
+
+.login-btn {
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.register-btn {
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: 9rem;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-heading {
+    font-size: 4rem;
+}
+
+.main-content {
+    margin-top: 2rem;
+    color: hsl(0, 0%, 41%);
+    font-size: 1rem;
+}
+
+.learn-more-btn {
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 0;
+    margin-top: 3rem;
+}
+
+.learn-more-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;;
+}
+
+.client-logo {
+    margin-top: 7rem;
+    letter-spacing: 1rem;
+}
+
+.main-right {
+    width: 75%;
+    height: auto;
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
