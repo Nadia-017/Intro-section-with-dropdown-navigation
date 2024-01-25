@@ -1,8 +1,10 @@
-# Frontend Mentor - Intro section with dropdown navigation
+# Intro section with dropdown navigation
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+The challenge is to build this intro section with dropdown navigation and make it look as close to the layout as possible.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
+- Html
+- css
+- JS Vanilla
